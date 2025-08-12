@@ -1,0 +1,147 @@
+body {
+  background: linear-gradient(to right, #67e8f9, #1d4ed8);
+  min-height: 100vh;
+  font-family: sans-serif;
+  color: #1e3a8a;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #22d3ee;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  z-index: 50;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo-sub {
+  font-size: 1.25rem;
+  font-weight: bold;
+  position: absolute;
+  transform: rotate(-12deg);
+  top: 0;
+  left: 4px;
+}
+
+.logo-main {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #f472b6;
+  transform: rotate(-12deg);
+}
+
+.nav-menu a {
+  margin-left: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.nav-menu a:hover {
+  color: white;
+}
+
+.section-home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating span {
+  font-size: 2rem;
+  color: #facc15;
+}
+.rating .star-gray {
+  color: #4b5563;
+}
+
+.profile-card {
+  background: linear-gradient(to right, #8b5cf6, #ec4899);
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+  margin-top: 20px;
+}
+.profile-card:hover {
+  transform: scale(1.05);
+}
+
+.profile-img {
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.name {
+  text-align: center;
+  color: white;
+}
+.name h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.name p {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.section-about {
+  min-height: 100vh;
+  display: flex;
+  gap: 2rem;
+  padding: 3rem 1.5rem;
+  border-top-left-radius: 1.5rem;
+  flex-wrap: wrap;
+  background: white;
+}
+
+.about-text {
+  flex: 1;
+}
+.about-text h1 {
+  font-family: serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.about-text p {
+  font-size: 1.125rem;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.section-achievement {
+  min-height: 100vh;
+  display: flex;
+  gap: 2rem;
+  padding: 3rem 1.5rem;
+  flex-wrap: wrap;
+  background: white;
+}
+
+.achievement-text {
+  flex: 1;
+}
+.achievement-text h1 {
+  font-family: serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.achievement-text p {
+  font-size: 1.125rem;
+  color: #374151;
+}
